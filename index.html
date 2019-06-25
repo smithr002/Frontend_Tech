@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <noscript>
+        <style>
+            button{
+                display: none;
+            }
+
+            progress{
+                display: none;
+            }
+            </style>
+    </noscript>
+    <header>
+        <progress id="progressBar" value="0" max="100"></progress>
+        <ul class="nav nav-tabs">
+            <li><a href="#form1">Personal</a></li>
+            <li><a href="#form2">Dating</a></li>
+            <li><a href="#form3">Workout</a></li>
+        </ul>
+    </header>
+        <div class="tabcontent">
+        <div id="form1" class="formcontent">
+            <h1>Personal data</h1>
+            <form action="">
+            <label for="name">Name</label>
+            <input id="name" type="text">
+            <label for="date">Date of birth</label>
+            <input id="date" type="date">
+            <label for="email">Email</label>
+            <input type="email" id="email">
+            <label for="female">Female</label>
+            <input type="radio" id="female">
+            <label for="male">Male</label>
+            <input type="radio" id="male">
+            <button id="continue">Continue</button>
+        </form>
+        </div>
+        <div id="form2" class="formcontent">
+            <h1>Dating</h1>
+            <form action="">
+                <label for="female">Female</label>
+                <input type="radio" id="female">
+                <label for="male">Male</label>
+                <input type="radio" id="male">
+                <label for="age">Age</label>
+                <input type="number">
+                <label for="descript">Looking for</label>
+                <textarea name="descript" id="" cols="30" rows="10"></textarea>
+                <button id="continue1">Continue</button>
+            </form>
+
+        </div>
+        <div id="form3" class="formcontent">
+            <h1>Workout</h1>
+             <form action="">
+                 <label for="pic">Workout media</label>
+                 <input type="file">
+                 <label for="workout">Workout</label>
+                 <textarea name="" id="" cols="30" rows="10"></textarea>
+                 <button>Finish</button>
+             </form>
+        </div>
+<script src="java.js"></script> 
+</body>
+</html>

@@ -1,0 +1,74 @@
+ body{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ h1{
+     font-size: 1.5em;
+ }
+
+ header{
+     background: blue;
+     padding: 10px 10px 0 10px;;
+ }
+ 
+.formcontent,
+.formcontent:target ~ .formcontent:last-child {
+    display: none;
+}
+.formcontent:target,
+.formcontent:last-child {
+    display: block;
+}
+  
+.nav-tabs {
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #ccc;
+}
+  
+  .progress-container {
+    width: 100%;
+    height: 8px;
+    background: #ccc;
+  }
+  
+  .progress-bar {
+    height: 8px;
+    background: #fff;
+    width: 0%;
+  }
+  
+.nav-tabs > li {
+    display: block;
+    float: left;
+    margin-bottom: -1px;
+    list-style: none;
+}
+  
+.nav-tabs:after {
+    content:" ";
+    display:table;
+    clear:both;
+}
+  
+.nav-tabs > li > a {
+    display: block;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 14px;
+    color: #fff;
+    text-decoration: none;
+}
+
+label{
+      display: block;
+      margin: 5px 0px;
+}
+
+input{
+      display: block;
+}
+
+input[type=submit]{
+      margin-top: 10px;
+  }
